@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>byCamp - Camping & Adventure Template</title>
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/otomanopee-one" rel="stylesheet">
+    <link rel="stylesheet" href="css/plugins.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader-bg"></div>
+    <div id="preloader">
+        <div id="preloader-status">
+            <div class="preloader-position loader"> <span></span> </div>
+        </div>
+    </div>
+    <!-- Progress scroll totop -->
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo-wrapper">
+                <a class="logo" href="index.html"> <img src="img/logo.png" class="logo-img" alt=""> </a>
+                <!-- <div class="logo"><h2>by<span>Camp</span></h2></div> -->
+            </div>
+            <!-- Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="fa-light fa-bars"></i></span> </button>
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Home</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="index.html" class="dropdown-item"><span>Home Slider</span></a></li>
+                            <li><a href="index2.html" class="dropdown-item"><span>Home Image</span></a></li>
+                            <li><a href="index3.html" class="dropdown-item"><span>Home Video</span></a></li>
+                            <li><a href="index4.html" class="dropdown-item"><span>Home Slideshow</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="accommodation.html">Room</a></li>
+                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Activities</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="activities.html" class="dropdown-item"><span>Activities 01</span></a></li>
+                            <li><a href="activities2.html" class="dropdown-item"><span>Activities 02</span></a></li>
+                            <li class="dropdown-submenu dropdown"> <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" href="#"><span>Activities Details <i class="ti-angle-right"></i></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="activities-details.html" class="dropdown-item"><span>Details 01</span></a></li>
+                                    <li><a href="activities-details2.html" class="dropdown-item"><span>Details 02</span></a></li>
+                                    <li><a href="activities-details3.html" class="dropdown-item"><span>Details 03</span></a></li>
+                                    <li><a href="activities-details4.html" class="dropdown-item"><span>Details 04</span></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Community</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="events.html" class="dropdown-item"><span>공지사항</span></a></li>
+                            <li><a href="faq.html" class="dropdown-item"><span>FAQs</span></a></li>
+                            <li><a href="amenities.html" class="dropdown-item"><span>Amenities</span></a></li>
+                            <li><a href="events.html" class="dropdown-item"><span>Events</span></a></li>
+                            <li><a href="team.html" class="dropdown-item"><span>Team</span></a></li>
+                            <li><a href="pricing.html" class="dropdown-item"><span>Pricing</span></a></li>
+                            <li><a href="faq.html" class="dropdown-item"><span>FAQs</span></a></li>
+                            <li><a href="gallery-image.html" class="dropdown-item"><span>Image Gallery</span></a></li>
+                            <li><a href="gallery-video.html" class="dropdown-item"><span>Video Gallery</span></a></li>
+                            <li><a href="404.html" class="dropdown-item"><span>404 Page</span></a></li>
+                        </ul>
+                    </li>
+<!--                    <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>-->
+<!--                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>-->
+                </ul>
+                <div class="navbar-right">
+                    <div class="button"><a data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" href="#0"><i class="ti-calendar mr-5"></i>실시간예약</a></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Header Banner -->
+    <div class="banner-header section-padding valign bg-img bg-fixed" data-overlay-dark="4" data-background="image/about_main.jpeg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>About <span>Us</span></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About -->
+    <section class="about section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-12 mb-30">
+                    <div class="section-subtitle">
+                        <div class="iconix"><i class="flaticon-023-hiking-1"></i></div> Luxury Glamping
+                    </div>
+                    <div class="section-title">캠핑장 소개</div>
+                    <p class="mb-60">
+                        안녕하십니까.
+
+                        플로렌스 글램핑 대표 강성민 입니다.
+
+                        저희 플로렌스 글램핑은 안전과 고객 만족을 최우선으로 생각하는 기업이며 고객님들의 안전을 위하여 화재에 강한 방염텐트 및 친환경 자재들을 사용 하였으며 화장실 및 샤워장 외 기타 시설물 사용에 있어서 특히 불편함이 없도록 하였습니다.
+
+                        예로부터 물 좋고 공기 좋기로 유명한 가평에서 가족 및 연인 혹은 친구분들끼리 즐거운 여행을 하실 수 있도록 최선을 다 하겠습니다.
+
+                        감사합니다.
+                    </p>
+                    <div class="row">
+                        <div class="col col-md-4">
+                            <div class="icon"> <span class="flaticon-007-tent-1"></span>
+                                <h5>Tents Rent</h5>
+                            </div>
+                        </div>
+                        <div class="col col-md-4">
+                            <div class="icon"> <span class="flaticon-023-hiking-1"></span>
+                                <h5>Activities</h5>
+                            </div>
+                        </div>
+                        <div class="col col-md-4">
+                            <div class="icon"> <span class="flaticon-005-firewood"></span>
+                                <h5>Firewoods</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 offset-lg-1 col-md-12">
+                    <div class="item"> <img src="image/about_intro.jpeg" class="img-fluid" alt="">
+                        <div class="float-box animation-float d-flex"> <i class="icon flaticon-023-hiking-1"></i>
+                            <div class="title"><span>Let's Glamping!</span> nature lovers</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Activities 1 -->
+    <section class="activities1 section-padding bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="section-subtitle">
+                        <div class="iconix"><i class="flaticon-023-hiking-1"></i></div> What We're Offering
+                    </div>
+                    <div class="section-title">시설안내</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item mt-30"> <img src="image/facility_pool.jpeg" class="img-fluid" alt="">
+                            <div class="cont">
+                                <div class="text">
+                                    <h5>수영장</h5>
+                                    <p>글램핑장 가운데 위치한 수영장과 족욕장 입니다.
+                                        매주 토요일 운영하고 있으며 성수기 기간에는 매일 운영 합니다.
+                                        수영장 운영시 천연 지하수를 사용하며 수영장 및 족욕장 물은 새 물만 받아드립니다. 안전 사고 및 소음 방지를 위하여 일몰 후에는 수영장의 물을 전부 배수합니다.</p>
+                                </div>
+                                <div class="icon">
+                                    <a href="activities-details2.html" class="arrow">
+                                        <div class="icon-w"> <i class="flaticon-014-tent-4 icon-show"></i> <i class="ti-arrow-top-right icon-hidden"></i> </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item mt-30"> <img src="image/facility_shower.jpeg" class="img-fluid" alt="">
+                            <div class="cont">
+                                <div class="text">
+                                    <h5>샤워장</h5>
+                                    <p>글램핑장 가운데 위치한 수영장과 족욕장 입니다.
+                                        매주 토요일 운영하고 있으며 성수기 기간에는 매일 운영 합니다.
+                                        수영장 운영시 천연 지하수를 사용하며 수영장 및 족욕장 물은 새 물만 받아드립니다. 안전 사고 및 소음 방지를 위하여 일몰 후에는 수영장의 물을 전부 배수합니다.</p>
+                                </div>
+                                <div class="icon">
+                                    <a href="activities-details2.html" class="arrow">
+                                        <div class="icon-w"> <i class="flaticon-014-tent-4 icon-show"></i> <i class="ti-arrow-top-right icon-hidden"></i> </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item mt-30"> <img src="image/facility_toilet.jpeg" class="img-fluid" alt="">
+                            <div class="cont">
+                                <div class="text">
+                                    <h5>화장실</h5>
+                                    <p>글램핑장 가운데 위치한 수영장과 족욕장 입니다.
+                                        매주 토요일 운영하고 있으며 성수기 기간에는 매일 운영 합니다.
+                                        수영장 운영시 천연 지하수를 사용하며 수영장 및 족욕장 물은 새 물만 받아드립니다. 안전 사고 및 소음 방지를 위하여 일몰 후에는 수영장의 물을 전부 배수합니다.</p>
+                                </div>
+                                <div class="icon">
+                                    <a href="activities-details2.html" class="arrow">
+                                        <div class="icon-w"> <i class="flaticon-014-tent-4 icon-show"></i> <i class="ti-arrow-top-right icon-hidden"></i> </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item mt-30"> <img src="image/facility_snack.jpeg" class="img-fluid" alt="">
+                            <div class="cont">
+                                <div class="text">
+                                    <h5>매점</h5>
+                                    <p>글램핑에 필요한 물건을 구비하고 있습니다.
+                                        각종 음료, 아이스크림, 과자, 아이들을 위한 완구류, 젤리, 쌈장, 라면, 컵라면 등을 판매하고 있습니다.
+                                        매점은 글램핑장 입구에 위치하고 있습니다.</p>
+                                </div>
+                                <div class="icon">
+                                    <a href="activities-details.html" class="arrow">
+                                        <div class="icon-w"> <i class="flaticon-054-hiking-2 icon-show"></i> <i class="ti-arrow-top-right icon-hidden"></i> </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item mt-30"> <img src="image/facility_foot.jpeg" class="img-fluid" alt="">
+                            <div class="cont">
+                                <div class="text">
+                                    <h5>족욕장</h5>
+                                    <p>글램핑장 가운데 위치한 수영장과 족욕장 입니다.
+                                        매주 토요일 운영하고 있으며 성수기 기간에는 매일 운영 합니다.
+                                        수영장 운영시 천연 지하수를 사용하며 수영장 및 족욕장 물은 새 물만 받아드립니다. 안전 사고 및 소음 방지를 위하여 일몰 후에는 수영장의 물을 전부 배수합니다.</p>
+                                </div>
+                                <div class="icon">
+                                    <a href="activities-details2.html" class="arrow">
+                                        <div class="icon-w"> <i class="flaticon-014-tent-4 icon-show"></i> <i class="ti-arrow-top-right icon-hidden"></i> </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item mt-30"> <img src="image/facility_sink.jpeg" class="img-fluid" alt="">
+                            <div class="cont">
+                                <div class="text">
+                                    <h5>개수대</h5>
+                                    <p>고객님들의 불편을 최소화 하고자 개수대와 샤워장, 화장실 전부를 두곳으로 나누어 더 위생적이고 편리하게 사용 하실 수 있도록 하였습니다. 기다리는 시간 없이 언제든 편리하고 깨끗하게 사용 가능 하시며  24시간 운영되며 부족함 없이 온수 사용이 가능하십니다.
+                                        위생과 청결에 가장 중점을 두고 관리하고 있습니다.
+                                    </p>
+                                </div>
+                                <div class="icon">
+                                    <a href="activities-details3.html" class="arrow">
+                                        <div class="icon-w"> <i class="flaticon-042-guitar icon-show"></i> <i class="ti-arrow-top-right icon-hidden"></i> </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="activities1 section-padding bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="section-subtitle">
+                        <div class="iconix"><i class="flaticon-023-hiking-1"></i></div> What We're Offering
+                    </div>
+                    <div class="section-title">주변관광지</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item mt-30"> <img src="image/tour_velly_myungji.jpg" class="img-fluid" alt="">
+                            <div class="cont">
+                                <div class="text">
+                                    <h5>명지계곡</h5>
+                                    <p>명지계곡은 경기도내에서 두번째로 높은 명지산(1,267M)의 정상에서 동쪽으로 길게 흘러내려간 계곡이다.</p>
+                                </div>
+                                <div class="icon">
+                                    <a href="activities-details2.html" class="arrow">
+                                        <div class="icon-w"> <i class="flaticon-014-tent-4 icon-show"></i> <i class="ti-arrow-top-right icon-hidden"></i> </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item mt-30"> <img src="image/tour_nami.jpg" class="img-fluid" alt="">
+                            <div class="cont">
+                                <div class="text">
+                                    <h5>남이섬</h5>
+                                    <p>남이섬은 강원도 춘천시 남산면 방하리 에 있는 섬이다.
+                                        남이 장군의 묘역이 있는 문화유적지이지만 유원지로 개발되었다</p>
+                                </div>
+                                <div class="icon">
+                                    <a href="activities-details2.html" class="arrow">
+                                        <div class="icon-w"> <i class="flaticon-014-tent-4 icon-show"></i> <i class="ti-arrow-top-right icon-hidden"></i> </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item mt-30"> <img src="image/tour_morning.jpg" class="img-fluid" alt="">
+                            <div class="cont">
+                                <div class="text">
+                                    <h5>아침고요수목원</h5>
+                                    <p>아침고요수목원은 축령산의 빼어난 자연경관을 배경으로 하여 한국의 미를 듬뿍 담은 정원들을 원예학적으로 조화시켜 설계한 원예수목원이다.</p>
+                                </div>
+                                <div class="icon">
+                                    <a href="activities-details2.html" class="arrow">
+                                        <div class="icon-w"> <i class="flaticon-014-tent-4 icon-show"></i> <i class="ti-arrow-top-right icon-hidden"></i> </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item mt-30"> <img src="image/tour_vally.jpg" class="img-fluid" alt="">
+                            <div class="cont">
+                                <div class="text">
+                                    <h5>용추계곡</h5>
+                                    <p>용추계곡은 경기도 가평군 가평읍 승안리에 위치한 계곡으로 해발 900M의 칼봉산을 발원지로 형성되었다.</p>
+                                </div>
+                                <div class="icon">
+                                    <a href="activities-details.html" class="arrow">
+                                        <div class="icon-w"> <i class="flaticon-054-hiking-2 icon-show"></i> <i class="ti-arrow-top-right icon-hidden"></i> </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item mt-30"> <img src="image/tour_swiss.jpg" class="img-fluid" alt="">
+                            <div class="cont">
+                                <div class="text">
+                                    <h5>스위스 테마파크 에델바이스 마을</h5>
+                                    <p>스위스의 작은 마을 축제를 주제로 만들어 진 테마파크 에델바이스는 스위스에서 보고 느낀 아름다운 숲과 마을, 따뜻하고 친절한 사람들의 미소를 경기도 가평의 아름다운 자연환경 속에서 스위스풍의 건출물과 다양한 테마공원을 통해 재현하였습니다.</p>
+                                </div>
+                                <div class="icon">
+                                    <a href="activities-details2.html" class="arrow">
+                                        <div class="icon-w"> <i class="flaticon-014-tent-4 icon-show"></i> <i class="ti-arrow-top-right icon-hidden"></i> </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item mt-30"> <img src="image/tour_lake.jpg" class="img-fluid" alt="">
+                            <div class="cont">
+                                <div class="text">
+                                    <h5>호명호수</h5>
+                                    <p>박정희 대통령 시대에 건설된 호명호수는 에너지를 효과적으로 사용하기 위해 심야에 남아도는 전기를 이용해 북한강 하류물을 산꼭대기까지 끌어올린 다음 전기수요가 피크일 때 물을 떨어뜨려 전기를 얻는 양수발전소의 인공저수지이다.</p>
+                                </div>
+                                <div class="icon">
+                                    <a href="activities-details2.html" class="arrow">
+                                        <div class="icon-w"> <i class="flaticon-014-tent-4 icon-show"></i> <i class="ti-arrow-top-right icon-hidden"></i> </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Accomodation Box -->
+<!--    <section class="accommodation-box section-padding bg-gray">-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+<!--                <div class="col-md-12 text-center">-->
+<!--                    <div class="section-subtitle">-->
+<!--                        <div class="iconix"><i class="flaticon-023-hiking-1"></i></div> What We Offer-->
+<!--                    </div>-->
+<!--                    <div class="section-title">시설안내</div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="row">-->
+<!--                <div class="col-lg-4 col-md-12">-->
+<!--                    <div class="item"> -->
+<!--                        <span class="icon flaticon-021-cottage-1"></span>-->
+<!--                        <div class="cont">-->
+<!--                            <h5><a href="accommodation-details.html">Private Cottages</a></h5>-->
+<!--                            <p>글램핑에 필요한 물건을 구비하고 있습니다.-->
+<!--                                각종 음료, 아이스크림, 과자, 아이들을 위한 완구류, 젤리, 쌈장, 라면, 컵라면 등을 판매하고 있습니다.-->
+<!--                                매점은 글램핑장 입구에 위치하고 있습니다.</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-lg-4 col-md-12">-->
+<!--                    <div class="item"> <span class="icon flaticon-007-tent-1"></span>-->
+<!--                        <div class="cont">-->
+<!--                            <h5><a href="accommodation-details.html">수영장 & 족욕장</a></h5>-->
+<!--                            <p>글램핑장 가운데 위치한 수영장과 족욕장 입니다.-->
+<!--                                매주 토요일 운영하고 있으며 성수기 기간에는 매일 운영 합니다.-->
+<!--                                수영장 운영시 천연 지하수를 사용하며 수영장 및 족욕장 물은 새 물만 받아드립니다. 안전 사고 및 소음 방지를 위하여 일몰 후에는 수영장의 물을 전부 배수합니다.-->
+<!--                            </p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-lg-4 col-md-12">-->
+<!--                    <div class="item"> <span class="icon flaticon-048-van"></span>-->
+<!--                        <div class="cont">-->
+<!--                            <h5><a href="accommodation-details.html">개수대 & 샤워장, 화장실</a></h5>-->
+<!--                            <p>고객님들의 불편을 최소화 하고자 개수대와 샤워장, 화장실 전부를 두곳으로 나누어 더 위생적이고 편리하게 사용 하실 수 있도록 하였습니다. 기다리는 시간 없이 언제든 편리하고 깨끗하게 사용 가능 하시며  24시간 운영되며 부족함 없이 온수 사용이 가능하십니다.-->
+<!--                                위생과 청결에 가장 중점을 두고 관리하고 있습니다.</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
+    <!-- Team -->
+<!--    <section class="team section-padding">-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+<!--                <div class="col-md-12 mb-30 text-center">-->
+<!--                    <div class="section-subtitle">-->
+<!--                        <div class="iconix"><i class="flaticon-023-hiking-1"></i></div> Our Seniors-->
+<!--                    </div>-->
+<!--                    <div class="section-title">Meet Our Team</div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="row">-->
+<!--            <div class="col-md-12">-->
+<!--                <div class="owl-carousel owl-theme">-->
+<!--                    <div class="item">-->
+<!--                        <div class="wrapper"> -->
+<!--                            <div class="img"><img src="img/600x600.jpg" class="img-fluid" alt=""></div>-->
+<!--                            <div class="icon"> <a href="team-single.html" class="arrow"><span class="ti-info"></span></a> </div>-->
+<!--                        </div>-->
+<!--                        <div class="text">-->
+<!--                            <div class="title">Emily Martin</div>-->
+<!--                            <div class="subtitle">Camp Chef</div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="item">-->
+<!--                        <div class="wrapper"> -->
+<!--                            <div class="img"><img src="img/600x600.jpg" class="img-fluid" alt=""></div>-->
+<!--                            <div class="icon"> <a href="team-single.html" class="arrow"><span class="ti-info"></span></a> </div>-->
+<!--                        </div>-->
+<!--                        <div class="text">-->
+<!--                            <div class="title">Micheal Martin</div>-->
+<!--                            <div class="subtitle">Camp Counselor</div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="item">-->
+<!--                        <div class="wrapper"> -->
+<!--                            <div class="img"><img src="img/600x600.jpg" class="img-fluid" alt=""></div>-->
+<!--                            <div class="icon"> <a href="team-single.html" class="arrow"><span class="ti-info"></span></a> </div>-->
+<!--                        </div>-->
+<!--                        <div class="text">-->
+<!--                            <div class="title">Robert Arman</div>-->
+<!--                            <div class="subtitle">Head Counselor</div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="item">-->
+<!--                        <div class="wrapper"> -->
+<!--                            <div class="img"><img src="img/600x600.jpg" class="img-fluid" alt=""></div>-->
+<!--                            <div class="icon"> <a href="team-single.html" class="arrow"><span class="ti-info"></span></a> </div>-->
+<!--                        </div>-->
+<!--                        <div class="text">-->
+<!--                            <div class="title">Henry Noah</div>-->
+<!--                            <div class="subtitle">Outdoor Education Instructor</div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="item">-->
+<!--                        <div class="wrapper"> -->
+<!--                            <div class="img"><img src="img/600x600.jpg" class="img-fluid" alt=""></div>-->
+<!--                            <div class="icon"> <a href="team-single.html" class="arrow"><span class="ti-info"></span></a> </div>-->
+<!--                        </div>-->
+<!--                        <div class="text">-->
+<!--                            <div class="title">Pamela Jane</div>-->
+<!--                            <div class="subtitle">Lifeguard</div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="item">-->
+<!--                        <div class="wrapper"> -->
+<!--                            <div class="img"><img src="img/600x600.jpg" class="img-fluid" alt=""></div>-->
+<!--                            <div class="icon"> <a href="team-single.html" class="arrow"><span class="ti-info"></span></a> </div>-->
+<!--                        </div>-->
+<!--                        <div class="text">-->
+<!--                            <div class="title">Elisa Martin</div>-->
+<!--                            <div class="subtitle">Arts and Crafts Coordinator</div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
+    <!-- Testiominals -->
+    <section class="activities1 section-padding bg-gray" data-background="img/1920x1080.jpg" data-overlay-dark="3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="section-subtitle">
+                        <div class="iconix"><i class="flaticon-023-hiking-1"></i></div> What We're Offering
+                    </div>
+                    <div class="section-title">오시는길</div>
+                </div>
+            </div>
+            <div class="row">
+<!--                <div class="col-md-12">-->
+<!--                    <div class="owl-carousel owl-theme">-->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12594.359140487662!2d127.551962!3d37.893275!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3562d95496551aa3%3A0xf07a5769029f1b4e!2z7ZSM66Gc66CM7Iqk6riA656o7ZWRJuy6oO2VkQ!5e0!3m2!1sko!2skr!4v1737688118730!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<!--                    </div>-->
+<!--                </div>-->
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Activities 1 -->
+<!--    <section class="activities1 section-padding bg-gray">-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+<!--                <div class="col-md-12 text-center">-->
+<!--                    <div class="section-subtitle">-->
+<!--                        <div class="iconix"><i class="flaticon-023-hiking-1"></i></div> What We're Offering-->
+<!--                    </div>-->
+<!--                    <div class="section-title">Our Activities</div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="row">-->
+<!--                <div class="col-md-12">-->
+<!--                    <div class="owl-carousel owl-theme">-->
+<!--                        <div class="item mt-30"> <img src="img/1920x1080.jpg" class="img-fluid" alt="">-->
+<!--                            <div class="cont">-->
+<!--                                <div class="text">-->
+<!--                                    <h5>Climbing</h5>-->
+<!--                                    <p>Lorem ipsum dolor miss onsaltin amen the constran adipiscing entesue hendre nisan drana in the fermen.</p>-->
+<!--                                </div>-->
+<!--                                <div class="icon">-->
+<!--                                    <a href="activities-details.html" class="arrow">-->
+<!--                                        <div class="icon-w"> <i class="flaticon-054-hiking-2 icon-show"></i> <i class="ti-arrow-top-right icon-hidden"></i> </div>-->
+<!--                                    </a>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="item mt-30"> <img src="img/1920x1080.jpg" class="img-fluid" alt="">-->
+<!--                            <div class="cont">-->
+<!--                                <div class="text">-->
+<!--                                    <h5>Camping</h5>-->
+<!--                                    <p>Lorem ipsum dolor miss onsaltin amen the constran adipiscing entesue hendre nisan drana in the fermen.</p>-->
+<!--                                </div>-->
+<!--                                <div class="icon">-->
+<!--                                    <a href="activities-details2.html" class="arrow">-->
+<!--                                        <div class="icon-w"> <i class="flaticon-014-tent-4 icon-show"></i> <i class="ti-arrow-top-right icon-hidden"></i> </div>-->
+<!--                                    </a>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="item mt-30"> <img src="img/1920x1080.jpg" class="img-fluid" alt="">-->
+<!--                            <div class="cont">-->
+<!--                                <div class="text">-->
+<!--                                    <h5>Music</h5>-->
+<!--                                    <p>Lorem ipsum dolor miss onsaltin amen the constran adipiscing entesue hendre nisan drana in the fermen.</p>-->
+<!--                                </div>-->
+<!--                                <div class="icon">-->
+<!--                                    <a href="activities-details3.html" class="arrow">-->
+<!--                                        <div class="icon-w"> <i class="flaticon-042-guitar icon-show"></i> <i class="ti-arrow-top-right icon-hidden"></i> </div>-->
+<!--                                    </a>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="item mt-30"> <img src="img/1920x1080.jpg" class="img-fluid" alt="">-->
+<!--                            <div class="cont">-->
+<!--                                <div class="text">-->
+<!--                                    <h5>Adventure</h5>-->
+<!--                                    <p>Lorem ipsum dolor miss onsaltin amen the constran adipiscing entesue hendre nisan drana in the fermen.</p>-->
+<!--                                </div>-->
+<!--                                <div class="icon">-->
+<!--                                    <a href="activities-details4.html" class="arrow">-->
+<!--                                        <div class="icon-w"> <i class="flaticon-009-tent-2 icon-show"></i> <i class="ti-arrow-top-right icon-hidden"></i> </div>-->
+<!--                                    </a>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="item mt-30"> <img src="img/1920x1080.jpg" class="img-fluid" alt="">-->
+<!--                            <div class="cont">-->
+<!--                                <div class="text">-->
+<!--                                    <h5>Diving</h5>-->
+<!--                                    <p>Lorem ipsum dolor miss onsaltin amen the constran adipiscing entesue hendre nisan drana in the fermen.</p>-->
+<!--                                </div>-->
+<!--                                <div class="icon">-->
+<!--                                    <a href="activities-details.html" class="arrow">-->
+<!--                                        <div class="icon-w"> <i class="flaticon-053-sea-waves icon-show"></i> <i class="ti-arrow-top-right icon-hidden"></i> </div>-->
+<!--                                    </a>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="item mt-30"> <img src="img/1920x1080.jpg" class="img-fluid" alt="">-->
+<!--                            <div class="cont">-->
+<!--                                <div class="text">-->
+<!--                                    <h5>Cycling</h5>-->
+<!--                                    <p>Lorem ipsum dolor miss onsaltin amen the constran adipiscing entesue hendre nisan drana in the fermen.</p>-->
+<!--                                </div>-->
+<!--                                <div class="icon">-->
+<!--                                    <a href="activities-details2.html" class="arrow">-->
+<!--                                        <div class="icon-w"> <i class="flaticon-045-bicycle icon-show"></i> <i class="ti-arrow-top-right icon-hidden"></i> </div>-->
+<!--                                    </a>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
+    <!-- Promo Video -->
+<!--    <section class="video-wrapper video section-padding bg-img bg-fixed" data-overlay-dark="3" data-background="img/1920x1080.jpg">-->
+<!--        <div class="container">-->
+<!--            <div class="row justify-content-center">-->
+<!--                <div class="col-md-12 text-center">-->
+<!--                    <div class="section-title"><span>byCamp Promo<br>Video</span></div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="row justify-content-center">-->
+<!--                <div class="col-md-12 text-center">-->
+<!--                    <a class="vid" href="https://youtu.be/mtc2IHdyz4s">-->
+<!--                        <div class="vid-button"> <span class="icon"><i class="fa-solid fa-play"></i></span> </div>-->
+<!--                    </a>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
+    <!-- Clients -->
+<!--    <section class="clients">-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+<!--                <div class="col-lg-12 col-md-12">-->
+<!--                    <div class="owl-carousel owl-theme">-->
+<!--                        <div class="logo">-->
+<!--                            <a href="#0"><img src="img/clients/1.svg" class="img-fluid" alt=""></a>-->
+<!--                        </div>-->
+<!--                        <div class="logo">-->
+<!--                            <a href="#0"><img src="img/clients/2.svg" class="img-fluid" alt=""></a>-->
+<!--                        </div>-->
+<!--                        <div class="logo">-->
+<!--                            <a href="#0"><img src="img/clients/3.svg" class="img-fluid" alt=""></a>-->
+<!--                        </div>-->
+<!--                        <div class="logo">-->
+<!--                            <a href="#0"><img src="img/clients/4.svg" class="img-fluid" alt=""></a>-->
+<!--                        </div>-->
+<!--                        <div class="logo">-->
+<!--                            <a href="#0"><img src="img/clients/5.svg" class="img-fluid" alt=""></a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- top -->
+        <div class="top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-30">
+                        <div class="item">
+                            <div class="logo"><img src="img/logo.png" alt=""></div>
+<!--                            <p>Lorem ipsum dolor sit amet consectetun the sapiention dolor sit in the fermen.</p>-->
+<!--                            <div class="social-icons">-->
+<!--                                <ul class="list-inline">-->
+<!--                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>-->
+<!--                                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>-->
+<!--                                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>-->
+<!--                                </ul>-->
+<!--                            </div>-->
+                        </div>
+                    </div>
+                    <div class="col-md-3 offset-md-1 mb-30">
+                        <div class="item">
+                            <h3>Contact</h3>
+                            <p>플로렌스 글램핑
+                                <br>경기도 가평군 북면
+                                <br>목동리 1077-2
+                            </p>
+                            <div class="phone"><a href="tel:01029251020">010-2925-1020</a></div>
+                            <div class="mail"><a href="mailto:didajfn@nate.com">didajfn@nate.com</a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-30">
+                        <div class="item">
+                            <h3>Info</h3>
+                            <p>사업자등록번호
+                                <br>164-56-00034
+                            </p>
+                            <p>통신판매업신고
+                                <br>제 2016-경기가평-127호
+                            </p>
+<!--                            <div class="newsletter">-->
+<!--                                <form action="#">-->
+<!--                                    <input type="email" placeholder="Email Address" required="">-->
+<!--                                    <button type="submit"><i class="fa-light fa-arrow-up-right"></i></button>-->
+<!--                                </form>-->
+<!--                            </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- bottom -->
+        <div class="bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-12">
+                        <p class="mb-0">COPYRIGHT© 2015 <a href="#">Florence Glamping.</a> All Rights Reserved.</p>
+                    </div>
+<!--                    <div class="col-lg-8 col-md-12">-->
+<!--                        <div class="links">-->
+<!--                            <ul>-->
+<!--                                <li><a href="#">Privacy Policy</a></li>-->
+<!--                                <li><a href="#">Terms &amp; Conditions</a></li>-->
+<!--                            </ul>-->
+<!--                        </div>-->
+<!--                    </div>-->
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Popup - Book An Appointment -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Book A Place</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                        <div class="booking-inner clearfix">
+                            <form method="post" action="#0" class="form1 clearfix">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-12">
+                                        <input name="name" type="text" placeholder="Full Name" required>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12">
+                                        <input name="email" type="email" placeholder="Email Address" required>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12">
+                                        <input name="phone" type="text" placeholder="Contact Number" required>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12">
+                                        <div class="select1_wrapper">
+                                            <label>Reservation Type</label>
+                                            <div class="select1_inner">
+                                                <select class="select2 select" style="width: 100%">
+                                                    <option value="0">Reservation Type</option>
+                                                    <option value="1">Private Cottage</option>
+                                                    <option value="2">Tents With Territory</option>
+                                                    <option value="3">Compact Trailers</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12">
+                                        <div class="input1_wrapper">
+                                            <label>Check In</label>
+                                            <div class="input1_inner">
+                                                <input type="text" class="form-control input datepicker" placeholder="Check In" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-12">
+                                        <div class="input1_wrapper">
+                                            <label>Check Out</label>
+                                            <div class="input1_inner">
+                                                <input type="text" class="form-control input datepicker" placeholder="Check Out" required>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 form-group">
+                                        <textarea name="message" id="message" cols="30" rows="4" placeholder="Additional Note"></textarea>
+                                    </div>
+                                    
+                                    <div class="col-lg-7 col-md-12">
+                                <p style="line-height: 1.3em;"><small><i class="fa-solid fa-circle-info"></i> We are committed to protecting your privacy. We will never collect information about you without your explicit consent.</small></p>
+                            </div>
+                            <div class="col-lg-5 col-md-12 text-end">
+                                <button type="submit"><i class="fa-light fa-calendar-check mr-5"></i> Book Your Stay Now</button>
+                            </div>
+                                    
+                                </div>
+                            </form>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery-migrate-3.5.0.min.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.isotope.v3.0.2.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/YouTubePopUp.js"></script>
+    <script src="js/select2.js"></script>
+    <script src="js/datepicker.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
