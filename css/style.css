@@ -922,7 +922,7 @@ blockquote cite:before {
 /* logo */
 .nav-scroll .logo-wrapper .logo-img {
     margin-bottom: 0px;
-    width: 120px;
+    width: 200px;
 }
 .nav-scroll .logo-wrapper {}
 .nav-scroll .logo-wrapper .logo h2 {
@@ -942,7 +942,7 @@ blockquote cite:before {
     padding: 0;
 }
 .logo-wrapper .logo-img {
-    width: 130px;
+    width: 200px;
     text-align: center;
 }
 .logo-wrapper .logo h2 {
@@ -1122,7 +1122,7 @@ position: relative;
     .nav-scroll .logo {}
     .logo-img {
         margin-bottom: 0px;
-        width: 130px;
+        width: 200px;
         padding: 0;
     }
     .navbar button {
@@ -2987,7 +2987,7 @@ body.mfp-zoom-out-cur {
     margin-bottom: 30px;
 }
 .video-gallery .item img {
-    width: 100%
+    width: 100%;
     transform: scale(1);
     transition: transform 500ms ease;
 }
@@ -4242,7 +4242,7 @@ body.mfp-zoom-out-cur {
 }
 .footer .top .item .logo,
 .footer .bottom .logo {
-    width: 130px;
+    width: 200px;
     margin-bottom: 15px;
 }
 .footer .top .item h2 {
