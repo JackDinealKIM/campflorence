@@ -2,309 +2,908 @@
 <html lang="zxx">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
     <title>byCamp - Camping & Adventure Template</title>
-    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="shortcut icon" href="img/favicon.png"/>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/otomanopee-one" rel="stylesheet">
-    <link rel="stylesheet" href="css/plugins.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/plugins.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-    <!-- Preloader -->
-    <div class="preloader-bg"></div>
-    <div id="preloader">
-        <div id="preloader-status">
-            <div class="preloader-position loader"> <span></span> </div>
-        </div>
+<!-- Preloader -->
+<div class="preloader-bg"></div>
+<div id="preloader">
+    <div id="preloader-status">
+        <div class="preloader-position loader"><span></span></div>
     </div>
-    <!-- Progress scroll totop -->
-    <div class="progress-wrap cursor-pointer">
-        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-        </svg>
-    </div>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-            <!-- Logo -->
-            <div class="logo-wrapper">
-                <a class="logo" href="/"> <img src="img/logo.png" class="logo-img" alt=""> </a>
-                <!-- <div class="logo"><h2>by<span>Camp</span></h2></div> -->
-            </div>
-            <!-- Button -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="fa-light fa-bars"></i></span> </button>
-            <!-- Menu -->
-            <div class="collapse navbar-collapse" id="navbar">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="room.html">Room</a></li>
-                    <li class="nav-item"><a class="nav-link" href="activity.html">Activity</a></li>
-                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Community</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="notice.html" class="dropdown-item"><span>Notice</span></a></li>
-                            <li><a href="faq.html" class="dropdown-item"><span>FAQs</span></a></li>
-                            <li><a href="https://open.kakao.com/o/s94EJgch" class="dropdown-item" target="_blank"><span>1:1문의</span></a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="https://bit.ly/florence-reservation" target="_blank">Reservation</a></li>
-                </ul>
-                <div class="navbar-right">
-                    <div class="button"><a href="https://bit.ly/florence-reservation" target="_blank"><i class="ti-calendar mr-5"></i>실시간예약</a></div>
-                </div>
-            </div>
+</div>
+<!-- Progress scroll totop -->
+<div class="progress-wrap cursor-pointer">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+    </svg>
+</div>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <!-- Logo -->
+        <div class="logo-wrapper">
+            <a class="logo" href="/"> <img src="img/logo.png" class="logo-img" alt=""> </a>
+            <!-- <div class="logo"><h2>by<span>Camp</span></h2></div> -->
         </div>
-    </nav>
-    <!-- Header Banner -->
-    <div class="banner-header section-padding valign bg-img bg-fixed bg-position-bottom" data-overlay-dark="4" data-background="img/1920x1080.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h3>FAQs</h3>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Faqs -->
-    <section class="section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12">
-                    <ul class="faqs clearfix">
-                        <li class="item">
-                            <div class="title">규정이 있나요?</div>
-                            <div class="cont">
-                                <div class="text">플로렌스 글램핑은 일반야영장업 기준을 준수합니다.<br>
-                                    인화성 물질 사용 및 불꽃놀이는 금지되며 타인에게 위해 및 불쾌감을 주는 행위 (고성방가, 노상방뇨, 폭행, 언쟁) 환불없는 즉시 퇴실요구가 합법적으로 가능하며 이에 민,형사상의 책임을 묻습니다.<br>
-                                    텐트및 기물 파손시엔 배상해 주셔야 하며 불응시 민,형사상의 책임을 묻습니다.</div>
-                            </div>
-                        </li>
-                        <li class="item">
-                            <div class="title">지인초대/ 친구초대 가능한가요?</div>
-                            <div class="cont">
-                                <div class="text">지인초대/ 친구초대 및 예약 외 인원 절대 입장 금지합니다.<br>
-                                    예약 외 인원은 캠핑장 입장 자체가 거부되며 무단 입장시 전원 퇴실조치 하겠습니다.<br>
-                                    모든 고객님들과의 형평성을 위한 약속이니 이점 양해 부탁드립니다.</div>
-                            </div>
-                        </li>
-                        <li class="item">
-                            <div class="title">입실과 퇴실 시간은 어떻게 되나요?</div>
-                            <div class="cont">
-                                <div class="text">입실은 예약일 오후 3시 부터이며 퇴실은 다음날 오전 11시 입니다.<br>
-                                    빠른 입실과 늦은 퇴실은 허용되지 않습니다.<br>
-                                    (밤 9시 이후 입실은 허용되지 않습니다.)</div>
-                            </div>
-                        </li>
-                        <li class="item">
-                            <div class="title">무엇을 챙겨가야 하나요?</div>
-                            <div class="cont">
-                                <div class="text">플로렌스 글램핑은 전기렌지, 화장대, 선풍기, 냉장고, 침대(QUEEN), 좌탁, 협탁, 스탠드, 랜턴, 코펠, 선반, 고기접시, 채소접시, 고기집게, 고기가위, 수저통, 선반, 식탁깔개, 야외 바베큐용 식탁, 바베큐 그릴, 계절 이불 및 베게& 쿠션, 촛등 등의
-                                    물품을 구비하고 있습니다. 개인 위생용품을 챙겨오시면 더욱 편리합니다.</div>
-                            </div>
+        <!-- Button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"><i class="fa-light fa-bars"></i></span></button>
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="room.html">Room</a></li>
+                <li class="nav-item"><a class="nav-link" href="activity.html">Activity</a></li>
+                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" role="button"
+                                                 data-bs-toggle="dropdown" data-bs-auto-close="outside"
+                                                 aria-expanded="false">Community</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="notice.html" class="dropdown-item"><span>Notice</span></a></li>
+                        <li><a href="faq.html" class="dropdown-item"><span>FAQs</span></a></li>
+                        <li><a href="https://open.kakao.com/o/s94EJgch" class="dropdown-item" target="_blank"><span>1:1문의</span></a>
                         </li>
                     </ul>
-                </div>
-                <div class="col-lg-12 col-md-12">
-                    <ul class="faqs clearfix">
-                        <li class="item">
-                            <div class="title">애완견 데려가도 되나요?</div>
-                            <div class="cont">
-                                <div class="text">플로렌스 글램핑에선 시각안내견과 장애인도우미견을 제외한 모든 종류의 반려동물은 출입이 금지됩니다.</div>
-                            </div>
-                        </li>
-                        <li class="item">
-                            <div class="title">픽업 문의 및 오시는 길</div>
-                            <div class="cont">
-                                <div class="text">플로렌스 글램핑을 편하게 오시려면 각종 마트 픽업을 이용하시면 매우 편리하게 도착 하실 수 있습니다.<br>
-                                    마트픽업 이용 방법은 가평역/ 터미널 도착후 아래의 업체들 중에 한곳에 전화를 하셔서 안내를 받으시면 됩니다.<br>
-                                    <br>
-                                    조은마트<br>
-                                    <br>
-                                    031-582-7900<br>
-                                    <br>
-                                    씨씨 할인마트<br>
-                                    <br>
-                                    031-582-1488<br>
-                                    <br>
-                                    혹은 가평역에서 내리실 경우 가평터미널로 택시로 이동뒤 (기본요금)<br>
-                                    <br>
-                                    가평터미널에서 목동 터미널로 오는 버스를 타시면 됩니다.
-                                    <br>
-                                    목동 터미널 하차 뒤, 적목리 방향으로 조금 걸어오신뒤 입간판을 보고 이동하시면 됩니다.<br>
-                                    도보 기준 10분 이내로 도착 하실 수 있습니다.</div>
-                            </div>
-                        </li>
-                        <li class="item">
-                            <div class="title">주변에 물놀이 할 곳이 있나요?</div>
-                            <div class="cont">
-                                <div class="text">플로렌스 글램핑장 바로 옆에는 화악천이 흐르고 있습니다.<br>
-                                    물놀이 하시기에 충분한 수량과 청정도를 자랑합니다.<br>
-                                    고기잡기 및 수영이 가능하며 장마뒤나 폭우가 내린 다음날은 수량이 많아 입수가 금지됩니다.</div>
-                            </div>
-                        </li>
-                        <li class="item">
-                            <div class="title">텐트 정원이 몇명인가요?</div>
-                            <div class="cont">
-                                <div class="text">플로렌스 글램핑의 정원은 커플텐트의 경우 2인이며 성인 한분 혹은 아동/유아 1인 까지는 추가가 가능합니다.<br>
-                                    <br>
-                                    성인4명의 사용은 불허합니다.
-                                    <br>
-                                    <br>
-                                    가족텐트의 경우 정원은 4명이며<br>
-                                    <br>
-                                    두 커플 사용, 성인 남성 2명+성인 여성 2명의 혼숙은 올바른 숙박 문화를 위하여 절대 허용되지 않습니다.<br>
-                                    이 밖의 경우에는 문제 없이 이용 하실 수 있습니다.<br>
-                                    다자녀 가구 (대학생 미만 자녀3명) , 동성친구 4명, 남자3명 여자1명 혹은 여자3명 남자1명 조합도 허용 해 드립니다.<br>
-                                    <br>
-                                    <br>
-                                    쾌적한 환경과 힐링을 위한 조치이니 이해 부탁 드립니다.</div>
-                            </div>
-                        </li>
-                        <li class="item">
-                            <div class="title">예약은 어떻게 진행 하나요?</div>
-                            <div class="cont">
-                                <div class="text">홈페이지 <a href="https://bit.ly/florence-reservation" target="_blank"><b>'실시간예약(Reservation)'</b></a>을 클릭하여 입실하고픈 날짜와 텐트를 고르신 후에 무통장 입금이나 카드결제를 이용하여 예약을 하실 수 있습니다.<br>예약 완료시 문자메세지가 발송됩니다.</div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="https://bit.ly/florence-reservation" target="_blank">Reservation</a>
+                </li>
+            </ul>
+            <div class="navbar-right">
+                <div class="button"><a href="https://bit.ly/florence-reservation" target="_blank"><i
+                        class="ti-calendar mr-5"></i>실시간예약</a></div>
             </div>
         </div>
-    </section>
-    <!-- Footer -->
-    <footer class="footer">
-        <!-- top -->
-        <div class="top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 mb-30">
-                        <div class="item">
-                            <div class="logo"><img src="img/logo.png" alt=""></div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 offset-md-1 mb-30">
-                        <div class="item">
-                            <h3>Contact</h3>
-                            <p>플로렌스 글램핑
-                                <br>경기도 가평군 북면
-                                <br>목동리 1077-2
-                            </p>
-                            <div class="phone"><a href="tel:01029251020">010-2925-1020</a></div>
-                            <div class="mail"><a href="mailto:didajfn@nate.com">didajfn@nate.com</a></div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-30">
-                        <div class="item">
-                            <h3>Info</h3>
-                            <p>사업자등록번호
-                                <br>164-56-00034
-                            </p>
-                            <p>통신판매업신고
-                                <br>제 2016-경기가평-127호
-                            </p>
-                        </div>
-                    </div>
-                </div>
+    </div>
+</nav>
+<!-- Header Banner -->
+<div class="banner-header section-padding valign bg-img bg-fixed bg-position-bottom" data-overlay-dark="4"
+     data-background="img/1920x1080.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3>FAQs</h3>
             </div>
         </div>
-        <!-- bottom -->
-        <div class="bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-12">
-                        <p class="mb-0">COPYRIGHT© 2015 <a href="#">Florence Glamping.</a> All Rights Reserved.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- Popup - Book An Appointment -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Book A Place</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                        <div class="booking-inner clearfix">
-                            <form method="post" action="#0" class="form1 clearfix">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-12">
-                                        <input name="name" type="text" placeholder="Full Name" required>
-                                    </div>
-                                    <div class="col-lg-6 col-md-12">
-                                        <input name="email" type="email" placeholder="Email Address" required>
-                                    </div>
-                                    <div class="col-lg-6 col-md-12">
-                                        <input name="phone" type="text" placeholder="Contact Number" required>
-                                    </div>
-                                    <div class="col-lg-6 col-md-12">
-                                        <div class="select1_wrapper">
-                                            <label>Reservation Type</label>
-                                            <div class="select1_inner">
-                                                <select class="select2 select" style="width: 100%">
-                                                    <option value="0">Reservation Type</option>
-                                                    <option value="1">Private Cottage</option>
-                                                    <option value="2">Tents With Territory</option>
-                                                    <option value="3">Compact Trailers</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-12">
-                                        <div class="input1_wrapper">
-                                            <label>Check In</label>
-                                            <div class="input1_inner">
-                                                <input type="text" class="form-control input datepicker" placeholder="Check In" required>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-12">
-                                        <div class="input1_wrapper">
-                                            <label>Check Out</label>
-                                            <div class="input1_inner">
-                                                <input type="text" class="form-control input datepicker" placeholder="Check Out" required>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12 col-md-12 form-group">
-                                        <textarea name="message" id="message" cols="30" rows="4" placeholder="Additional Note"></textarea>
-                                    </div>
-                                    
-                                    <div class="col-lg-7 col-md-12">
-                                <p style="line-height: 1.3em;"><small><i class="fa-solid fa-circle-info"></i> We are committed to protecting your privacy. We will never collect information about you without your explicit consent.</small></p>
-                            </div>
-                            <div class="col-lg-5 col-md-12 text-end">
-                                <button type="submit"><i class="fa-light fa-calendar-check mr-5"></i> Book Your Stay Now</button>
-                            </div>
-                                    
+    </div>
+</div>
+<!-- Faqs -->
+<section class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <ul class="faqs clearfix">
+                    <li class="item fade-in">
+                        <div class="title">
+                            <i class="fas fa-clipboard-list"></i> 이용 규정 안내
+                        </div>
+                        <div class="cont">
+                            <div class="text">
+                                <p class="greeting">
+                                    플로렌스 글램핑은 일반야영장업 기준을 준수하며, 고객님들의 안전하고 쾌적한 이용을 위해 다음과 같은 규정을 안내드립니다.
+                                </p>
+
+                                <div class="explanation">
+                                    <p><strong>안전 관련 규정</strong></p>
+                                    <ul class="reason-list">
+                                        <li>인화성 물질 사용 금지</li>
+                                        <li>불꽃놀이 등 화재 위험 행위 금지</li>
+                                        <li>시설물 훼손 시 배상 책임 있음</li>
+                                    </ul>
                                 </div>
-                            </form>
+
+                                <div class="highlight-box">
+                                    <p><strong>즉시 퇴실 조치되는 행위</strong></p>
+                                    <ul class="reason-list">
+                                        <li>고성방가 등 소음 유발 행위</li>
+                                        <li>노상방뇨 등 공중도덕 위반 행위</li>
+                                        <li>폭행 및 언쟁 등 타인에게 위해를 가하는 행위</li>
+                                    </ul>
+                                </div>
+
+                                <div class="service-box">
+                                    <p>
+                                        <i class="fas fa-exclamation-circle"></i>
+                                        위 규정 위반 시 환불 없이 즉시 퇴실 조치되며, 상황에 따라 민·형사상 책임이 발생할 수 있습니다.
+                                    </p>
+                                </div>
+
+                                <p class="closing-message">
+                                    모든 고객님의 편안하고 안전한 휴식을 위해 규정 준수에 협조해 주시면 감사하겠습니다.
+                                </p>
+                            </div>
                         </div>
+                    </li>
+                    <li class="item fade-in">
+                        <div class="title">
+                            <i class="fas fa-users"></i> 친구 및 지인 초대 안내
+                        </div>
+                        <div class="cont">
+                            <div class="text">
+                                <p class="greeting">
+                                    안녕하세요! 저희 글램핑장을 찾아주셔서 감사합니다.
+                                </p>
+
+                                <div class="main-notice">
+                                    <p>
+                                        저희는 모든 고객님의 <strong>안전하고 즐거운 글램핑 경험</strong>을 위해 최선을 다하고 있습니다.
+                                    </p>
+                                    <div class="highlight-box">
+                                        예약하신 인원 외의 추가 인원은 <strong>사전 협의 없이 입장이 제한</strong>됩니다.
+                                    </div>
+                                </div>
+
+                                <div class="explanation">
+                                    <p>
+                                        이러한 정책은 다음과 같은 이유로 운영되고 있습니다:
+                                    </p>
+                                    <ul class="reason-list">
+                                        <li>고객님들의 프라이버시 보호</li>
+                                        <li>시설 이용의 쾌적성 유지</li>
+                                        <li>안전사고 예방</li>
+                                        <li>원활한 시설 관리</li>
+                                    </ul>
+                                </div>
+
+                                <p class="closing-message">
+                                    여러분의 협조에 깊이 감사드리며, 즐거운 추억 만드시기 바랍니다.<br>
+                                    추가 문의사항이 있으시면 언제든지 연락해 주세요! 🏕️
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item fade-in">
+                        <div class="title">
+                            <i class="far fa-clock"></i> 입실과 퇴실 시간은 어떻게 되나요?
+                        </div>
+                        <div class="cont">
+                            <div class="text">
+                                <p class="greeting">
+                                    안녕하세요! 저희 글램핑장을 이용해 주셔서 감사합니다.
+                                </p>
+
+                                <div class="main-notice">
+                                    <p>
+                                        저희의 입퇴실 시간은 고객님의 <strong>편안한 이용</strong>을 위해 다음과 같이 운영됩니다:
+                                    </p>
+                                    <div class="highlight-box">
+                                        <div class="time-info">
+                                            <p><i class="fas fa-sign-in-alt"></i> <strong>입실 시간:</strong> 예약일 오후 3시부터</p>
+                                            <p><i class="fas fa-sign-out-alt"></i> <strong>퇴실 시간:</strong> 다음날 오전 11시까지</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="explanation">
+                                    <p>
+                                        원활한 운영을 위해 다음 사항을 안내드립니다:
+                                    </p>
+                                    <ul class="reason-list">
+                                        <li>조기 입실 및 늦은 퇴실은 허용되지 않습니다</li>
+                                        <li>입실 시간 전에는 주차가 제한될 수 있습니다</li>
+                                        <li>오후 10시 이후 입실은 제한됩니다</li>
+                                        <li>저녁 입실 시 사전 연락 시 냉난방 준비 가능</li>
+                                    </ul>
+                                </div>
+
+                                <div class="service-box">
+                                    <p>
+                                        <i class="fas fa-info-circle"></i>
+                                        저녁 입실 예정이신 경우, 미리 연락 주시면 냉방/난방 및 조명을 사전에 준비해 드리겠습니다.
+                                    </p>
+                                </div>
+
+                                <p class="closing-message">
+                                    고객님의 편안한 글램핑을 위해 최선을 다하겠습니다.<br>
+                                    문의사항이 있으시면 언제든지 연락 주세요! ⏰
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-12 col-md-12">
+                <ul class="faqs clearfix">
+                    <li class="item fade-in">
+                        <div class="title">
+                            <i class="fas fa-paw"></i> 애완견 데려가도 되나요?
+                        </div>
+                        <div class="cont">
+                            <div class="text">
+                                <div class="pet-policy">
+                                    <div class="policy-main">
+                                        <i class="fas fa-info-circle"></i>
+                                        <p>
+                                            플로렌스 글램핑은 <strong>모든 고객님의 쾌적한 휴식</strong>을 위해 다음과 같이 운영됩니다:
+                                        </p>
+                                    </div>
+
+                                    <div class="highlight-box">
+                                        <div class="policy-details">
+                                            <div class="allowed">
+                                                <h5><i class="fas fa-check-circle"></i> 입장 가능</h5>
+                                                <ul class="policy-list">
+                                                    <li>시각안내견</li>
+                                                    <li>장애인도우미견</li>
+                                                </ul>
+                                            </div>
+                                            <div class="not-allowed">
+                                                <h5><i class="fas fa-times-circle"></i> 입장 제한</h5>
+                                                <ul class="policy-list">
+                                                    <li>일반 반려동물</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <p class="policy-note">
+                                        * 이는 알레르기가 있는 고객님들과 시설 관리를 위한 방침임을 양해 부탁드립니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item fade-in">
+                        <div class="title">
+                            <i class="fas fa-map-marked-alt"></i> 픽업 문의 및 오시는 길
+                        </div>
+                        <div class="cont">
+                            <div class="text">
+                                <p class="greeting">
+                                    안녕하세요! 플로렌스 글램핑에 오시는 여러분을 위해 편리한 이동 방법을 안내드립니다.
+                                </p>
+
+                                <div class="main-notice">
+                                    <h4 class="sub-title">
+                                        <i class="fas fa-shopping-cart"></i> 마트 픽업 서비스
+                                    </h4>
+                                    <p>
+                                        가평역이나 가평터미널에 도착하신 후 <strong>마트 픽업 서비스</strong>를 이용하시면 더욱 편리합니다.
+                                    </p>
+
+                                    <div class="highlight-box">
+                                        <div class="mart-info">
+                                            <div class="mart-item">
+                                                <h5><i class="fas fa-store"></i> 조은마트</h5>
+                                                <p>
+                                                    <i class="fas fa-link"></i> <a href="https://joeunmart.modoo.at" target="_blank">홈페이지 바로가기</a><br>
+                                                    <i class="fas fa-phone"></i> <a href="tel:031-582-7900">031-582-7900</a>
+                                                </p>
+                                            </div>
+                                            <div class="mart-item">
+                                                <h5><i class="fas fa-store"></i> 가평역 할인마트</h5>
+                                                <p>
+                                                    <i class="fas fa-phone"></i> <a href="tel:031-581-5070">031-581-5070</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="transportation-info">
+                                    <h4 class="sub-title">
+                                        <i class="fas fa-bus"></i> 대중교통 이용
+                                    </h4>
+                                    <div class="direction-steps">
+                                        <ol class="steps-list">
+                                            <li>가평터미널 또는 가평역에서 목동 터미널행 버스 탑승</li>
+                                            <li>목동 터미널에서 하차</li>
+                                            <li>적목리 방향으로 도보 약 7분 이동</li>
+                                            <li>플로렌스 글램핑 입간판 확인</li>
+                                        </ol>
+                                    </div>
+                                </div>
+
+                                <div class="service-box">
+                                    <p>
+                                        <i class="fas fa-info-circle"></i>
+                                        <strong>픽업 장소 안내</strong><br>
+                                        • 가평역 도착 → 가평역 할인마트 방문 → 픽업 문의<br>
+                                        • 가평터미널 도착 → 조은마트 방문 → 픽업 문의
+                                    </p>
+                                </div>
+
+                                <p class="closing-message">
+                                    편안하고 즐거운 여행 되시길 바랍니다!<br>
+                                    궁금한 점이 있으시면 언제든지 연락 주세요. 🚗
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- 물놀이 관련 FAQ -->
+                    <li class="item fade-in">
+                        <div class="title">
+                            <i class="fas fa-water"></i> 주변에 물놀이 할 곳이 있나요?
+                        </div>
+                        <div class="cont">
+                            <div class="text">
+                                <p class="greeting">
+                                    플로렌스 글램핑장 바로 옆에는 아름다운 화악천이 흐르고 있습니다.
+                                </p>
+
+                                <div class="highlight-box">
+                                    <p><strong>화악천 이용 안내</strong></p>
+                                    <ul class="reason-list">
+                                        <li>깨끗한 수질과 충분한 수량 보유</li>
+                                        <li>고기잡기 및 수영 가능</li>
+                                        <li>여름철 물놀이 최적</li>
+                                    </ul>
+                                </div>
+
+                                <div class="service-box">
+                                    <p>
+                                        <i class="fas fa-exclamation-circle"></i>
+                                        <strong>안전 주의사항:</strong> 장마 또는 폭우 후에는 안전을 위해 입수가 제한됩니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- 정원 관련 FAQ -->
+                    <li class="item fade-in">
+                        <div class="title">
+                            <i class="fas fa-users"></i> 텐트 정원이 몇 명인가요?
+                        </div>
+                        <div class="cont">
+                            <div class="text">
+                                <div class="main-notice">
+                                    <div class="highlight-box">
+                                        <p><strong>커플텐트 이용 안내</strong></p>
+                                        <ul class="reason-list">
+                                            <li>기본 정원: 2인</li>
+                                            <li>추가 가능: 성인 1인 또는 아동/유아 1인</li>
+                                            <li>성인 4인 사용 불가</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="highlight-box">
+                                        <p><strong>가족텐트 이용 안내 (4인용)</strong></p>
+                                        <ul class="reason-list">
+                                            <li>다자녀 가구 (대학생 미만 자녀 3명)</li>
+                                            <li>동성 친구 4인 그룹</li>
+                                            <li>성인 3:1 비율 그룹 (남3여1 또는 여3남1)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="service-box">
+                                    <p>
+                                        <i class="fas fa-info-circle"></i>
+                                        두 커플 또는 성인 남녀 2:2 구성의 이용은 제한됩니다. 쾌적한 환경과 올바른 숙박 문화 조성을 위한 조치임을 양해 부탁드립니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- 예약 관련 FAQ -->
+                    <li class="item fade-in">
+                        <div class="title">
+                            <i class="fas fa-calendar-alt"></i> 예약은 어떻게 진행하나요?
+                        </div>
+                        <div class="cont">
+                            <div class="text">
+                                <div class="main-notice">
+                                    <p>간편한 온라인 예약 절차를 안내해드립니다:</p>
+                                    <div class="highlight-box">
+                                        <ul class="reason-list">
+                                            <li>홈페이지 <a href="https://bit.ly/florence-reservation" target="_blank"><strong>'실시간예약(Reservation)'</strong></a> 메뉴 클릭</li>
+                                            <li>원하시는 날짜와 텐트 선택</li>
+                                            <li>무통장 입금 또는 카드 결제 진행</li>
+                                            <li>예약 완료 문자메시지 확인</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Footer -->
+<footer class="footer">
+    <!-- top -->
+    <div class="top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-30">
+                    <div class="item">
+                        <div class="logo"><img src="img/logo.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="col-md-3 offset-md-1 mb-30">
+                    <div class="item">
+                        <h3>Contact</h3>
+                        <p>플로렌스 글램핑
+                            <br>경기도 가평군 북면
+                            <br>목동리 1077-2
+                        </p>
+                        <div class="phone"><a href="tel:01029251020">010-2925-1020</a></div>
+                        <div class="mail"><a href="mailto:didajfn@nate.com">didajfn@nate.com</a></div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-30">
+                    <div class="item">
+                        <h3>Info</h3>
+                        <p>사업자등록번호
+                            <br>164-56-00034
+                        </p>
+                        <p>통신판매업신고
+                            <br>제 2016-경기가평-127호
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- jQuery -->
-    <script src="js/jquery-3.7.1.min.js"></script>
-    <script src="js/jquery-migrate-3.5.0.min.js"></script>
-    <script src="js/modernizr-2.6.2.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/jquery.isotope.v3.0.2.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scrollIt.min.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/jquery.magnific-popup.js"></script>
-    <script src="js/YouTubePopUp.js"></script>
-    <script src="js/select2.js"></script>
-    <script src="js/datepicker.js"></script>
-    <script src="js/smooth-scroll.min.js"></script>
-    <script src="js/custom.js"></script>
+    <!-- bottom -->
+    <div class="bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12">
+                    <p class="mb-0">COPYRIGHT© 2015 <a href="#">Florence Glamping.</a> All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/jquery-migrate-3.5.0.min.js"></script>
+<script src="js/modernizr-2.6.2.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/jquery.isotope.v3.0.2.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/scrollIt.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/jquery.magnific-popup.js"></script>
+<script src="js/YouTubePopUp.js"></script>
+<script src="js/select2.js"></script>
+<script src="js/datepicker.js"></script>
+<script src="js/smooth-scroll.min.js"></script>
+<script src="js/custom.js"></script>
+<style>
+    /* FAQ 스타일 수정본 */
+    .faqs {
+        list-style: none;
+        padding: 0;
+    }
+
+    .faqs .item {
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        opacity: 0;
+        animation: fadeIn 0.5s ease forwards;
+        border: 1px solid #eee;
+    }
+
+    /* 제목 스타일 수정 */
+    .faqs .title {
+        background: #fff; /* 배경색 흰색으로 변경 */
+        color: #2c3e50; /* 텍스트 색상 진한 색으로 변경 */
+        padding: 20px;
+        cursor: pointer;
+        position: relative;
+        font-weight: 600;
+        font-size: 18px;
+        transition: all 0.3s ease;
+        border-bottom: 1px solid #eee;
+        display: flex;
+        align-items: center;
+    }
+
+    .faqs .title i {
+        margin-right: 10px;
+        color: #e74c3c;
+        font-size: 20px; /* 아이콘 크기 약간 키움 */
+    }
+
+    .faqs .title:hover {
+        background: #f8f9fa; /* 호버 시 배경색 연한 회색으로 변경 */
+        color: #e74c3c; /* 호버 시 텍스트 색상 변경 */
+    }
+
+    /* 화살표 아이콘 추가 (선택사항) */
+    .faqs .title:after {
+        content: '›';
+        position: absolute;
+        right: 20px;
+        font-size: 24px;
+        color: #e74c3c;
+        transition: transform 0.3s ease;
+    }
+
+    .faqs .item.active .title:after {
+        transform: rotate(90deg);
+    }
+
+    /* 나머지 스타일은 동일하게 유지 */
+    .faqs .cont {
+        padding: 25px;
+        background: #fff;
+    }
+
+    /* 텍스트 스타일링 */
+    .greeting {
+        color: #e74c3c;
+        font-size: 1.1em;
+        margin-bottom: 20px;
+    }
+
+    .main-notice {
+        margin: 20px 0;
+    }
+
+    .highlight-box {
+        background: #f8f9fa;
+        border-left: 4px solid #e74c3c;
+        padding: 15px;
+        margin: 15px 0;
+    }
+
+    .explanation {
+        margin: 20px 0;
+    }
+
+    .reason-list {
+        list-style: none;
+        padding: 0;
+    }
+
+    .reason-list li {
+        padding: 8px 0 8px 25px;
+        position: relative;
+        animation: slideIn 0.5s ease forwards;
+        opacity: 0;
+    }
+
+    .reason-list li:before {
+        content: '✓';
+        position: absolute;
+        left: 0;
+        color: #e74c3c;
+    }
+
+    .closing-message {
+        border-top: 1px solid #eee;
+        margin-top: 20px;
+        padding-top: 20px;
+        color: #666;
+        font-style: italic;
+    }
+
+    /* 애니메이션 */
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes slideIn {
+        from {
+            opacity: 0;
+            transform: translateX(-20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    /* 리스트 아이템 순차 애니메이션 */
+    .reason-list li:nth-child(1) {
+        animation-delay: 0.2s;
+    }
+
+    .reason-list li:nth-child(2) {
+        animation-delay: 0.4s;
+    }
+
+    .reason-list li:nth-child(3) {
+        animation-delay: 0.6s;
+    }
+
+    .reason-list li:nth-child(4) {
+        animation-delay: 0.8s;
+    }
+
+    /* 반응형 디자인 */
+    @media (max-width: 768px) {
+        .faqs .title {
+            font-size: 16px;
+            padding: 15px;
+        }
+
+        .faqs .cont {
+            padding: 15px;
+        }
+    }
+
+    /* 호버 효과 */
+    .highlight-box:hover {
+        transform: translateX(5px);
+        transition: transform 0.3s ease;
+    }
+
+    strong {
+        color: #e74c3c;
+        font-weight: 600;
+    }
+
+    /* 기존 스타일에 추가할 부분 */
+    .time-info {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .time-info p {
+        margin: 0;
+        flex: 1;
+        min-width: 200px;
+    }
+
+    .time-info i {
+        color: #e74c3c;
+        margin-right: 10px;
+    }
+
+    .service-box {
+        background: #f0f9ff;
+        padding: 15px;
+        border-radius: 8px;
+        margin: 20px 0;
+        border-left: 4px solid #3498db;
+    }
+
+    .service-box i {
+        color: #3498db;
+        margin-right: 10px;
+    }
+
+    /* 시간 정보에 대한 반응형 처리 */
+    @media (max-width: 768px) {
+        .time-info {
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .time-info p {
+            min-width: auto;
+        }
+    }
+
+    /* 아이콘 애니메이션 */
+    .time-info i {
+        animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+        0% { transform: scale(1); }
+        50% { transform: scale(1.1); }
+        100% { transform: scale(1); }
+    }
+
+    /* 기존 스타일에 추가할 부분 */
+    .sub-title {
+        color: #2c3e50;
+        margin: 25px 0 15px;
+        font-size: 1.2em;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .sub-title i {
+        color: #e74c3c;
+    }
+
+    .mart-info {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+
+    .mart-item {
+        padding: 15px;
+        background: white;
+        border-radius: 8px;
+        transition: transform 0.3s ease;
+    }
+
+    .mart-item:hover {
+        transform: translateY(-5px);
+    }
+
+    .mart-item h5 {
+        color: #2c3e50;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .mart-item a {
+        color: #3498db;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .mart-item a:hover {
+        color: #e74c3c;
+    }
+
+    .steps-list {
+        counter-reset: step;
+        list-style: none;
+        padding: 0;
+    }
+
+    .steps-list li {
+        position: relative;
+        padding: 10px 0 10px 40px;
+        margin-bottom: 10px;
+        animation: slideIn 0.5s ease forwards;
+        opacity: 0;
+    }
+
+    .steps-list li::before {
+        counter-increment: step;
+        content: counter(step);
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 30px;
+        height: 30px;
+        background: #e74c3c;
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+    }
+
+    /* 순차적 애니메이션 */
+    .steps-list li:nth-child(1) { animation-delay: 0.2s; }
+    .steps-list li:nth-child(2) { animation-delay: 0.4s; }
+    .steps-list li:nth-child(3) { animation-delay: 0.6s; }
+    .steps-list li:nth-child(4) { animation-delay: 0.8s; }
+
+    .direction-steps {
+        background: #f8f9fa;
+        padding: 20px;
+        border-radius: 8px;
+        margin: 15px 0;
+    }
+
+    @media (max-width: 768px) {
+        .mart-info {
+            grid-template-columns: 1fr;
+        }
+
+        .mart-item {
+            padding: 10px;
+        }
+    }
+    /* 기존 스타일에 추가할 부분 */
+    .pet-policy {
+        padding: 10px 0;
+    }
+
+    .policy-main {
+        display: flex;
+        align-items: start;
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+
+    .policy-main i {
+        color: #e74c3c;
+        font-size: 24px;
+        margin-top: 3px;
+    }
+
+    .policy-details {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .allowed, .not-allowed {
+        padding: 15px;
+        border-radius: 8px;
+        background: white;
+    }
+
+    .allowed h5, .not-allowed h5 {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
+    .allowed h5 i {
+        color: #27ae60;
+    }
+
+    .not-allowed h5 i {
+        color: #e74c3c;
+    }
+
+    .policy-list {
+        list-style: none;
+        padding-left: 25px;
+    }
+
+    .policy-list li {
+        position: relative;
+        padding: 5px 0;
+        animation: slideIn 0.5s ease forwards;
+        opacity: 0;
+    }
+
+    .policy-list li:before {
+        content: '•';
+        position: absolute;
+        left: -15px;
+        color: #7f8c8d;
+    }
+
+    .policy-note {
+        margin-top: 20px;
+        color: #7f8c8d;
+        font-style: italic;
+        font-size: 0.9em;
+        padding-left: 15px;
+        border-left: 3px solid #e74c3c;
+    }
+
+    /* 애니메이션 */
+    .policy-list li:nth-child(1) { animation-delay: 0.2s; }
+    .policy-list li:nth-child(2) { animation-delay: 0.4s; }
+
+    @media (max-width: 768px) {
+        .policy-details {
+            grid-template-columns: 1fr;
+            gap: 10px;
+        }
+
+        .policy-main {
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
+
+    /* 호버 효과 */
+    .allowed:hover, .not-allowed:hover {
+        transform: translateY(-3px);
+        transition: transform 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+</style>
 </body>
 </html>
