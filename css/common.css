@@ -190,3 +190,16 @@
  .camping-link:hover {
      color: #e74c3c;
  }
+
+ .trans-bg .item {
+     background-color: rgba(44, 44, 44, 0.7); /* 회색빛 배경에 70% 불투명도 */
+     padding: 30px;
+     border-radius: 25px;  /* 더 부드러운 라운딩 */
+ }
+
+ /* hover 효과를 주고 싶다면 */
+ .trans-bg .item:hover {
+     background-color: rgba(44, 44, 44, 0.8);
+     transform: translateY(-3px);
+     transition: all 0.3s ease;
+ }
