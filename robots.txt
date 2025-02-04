@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://campflorence.com/sitemap.xml
+Sitemap: https://www.campflorence.com/sitemap.xml

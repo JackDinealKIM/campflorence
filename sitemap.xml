@@ -1,115 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://campflorence.com/about.html</loc>
-        <lastmod>2024-02-03</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://campflorence.com/activity.html</loc>
+        <loc>https://www.campflorence.com/activity.html</loc>
         <lastmod>2024-02-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://campflorence.com/faq.html</loc>
+        <loc>https://www.campflorence.com/faq.html</loc>
         <lastmod>2024-02-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://campflorence.com/gallery-bbq.html</loc>
+        <loc>https://www.campflorence.com/gallery-bbq.html</loc>
         <lastmod>2024-02-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://campflorence.com/gallery-campfire.html</loc>
+        <loc>https://www.campflorence.com/gallery-campfire.html</loc>
         <lastmod>2024-02-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://campflorence.com/gallery-fishing.html</loc>
+        <loc>https://www.campflorence.com/gallery-fishing.html</loc>
         <lastmod>2024-02-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://campflorence.com/gallery-foot.html</loc>
+        <loc>https://www.campflorence.com/gallery-foot.html</loc>
         <lastmod>2024-02-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://campflorence.com/gallery-shower.html</loc>
+        <loc>https://www.campflorence.com/gallery-shower.html</loc>
         <lastmod>2024-02-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://campflorence.com/gallery-sink.html</loc>
+        <loc>https://www.campflorence.com/gallery-sink.html</loc>
         <lastmod>2024-02-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://campflorence.com/gallery-snack.html</loc>
+        <loc>https://www.campflorence.com/gallery-snack.html</loc>
         <lastmod>2024-02-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://campflorence.com/gallery-stroll.html</loc>
+        <loc>https://www.campflorence.com/gallery-stroll.html</loc>
         <lastmod>2024-02-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://campflorence.com/gallery-swim.html</loc>
+        <loc>https://www.campflorence.com/gallery-swim.html</loc>
         <lastmod>2024-02-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://campflorence.com/gallery-toilet.html</loc>
+        <loc>https://www.campflorence.com/gallery-toilet.html</loc>
         <lastmod>2024-02-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://campflorence.com/gallery-valley.html</loc>
+        <loc>https://www.campflorence.com/gallery-valley.html</loc>
         <lastmod>2024-02-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://campflorence.com/index.html</loc>
+        <loc>https://www.campflorence.com/index.html</loc>
         <lastmod>2024-02-03</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://campflorence.com/notice.html</loc>
-        <lastmod>2024-02-03</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://campflorence.com/room.html</loc>
+        <loc>https://www.campflorence.com/room.html</loc>
         <lastmod>2024-02-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://campflorence.com/room-details-couple.html</loc>
+        <loc>https://www.campflorence.com/room-details-couple.html</loc>
         <lastmod>2024-02-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://campflorence.com/room-details-family.html</loc>
+        <loc>https://www.campflorence.com/room-details-family.html</loc>
         <lastmod>2024-02-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
