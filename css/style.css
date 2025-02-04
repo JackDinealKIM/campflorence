@@ -4940,6 +4940,7 @@ body.mfp-zoom-out-cur {
 .main-img {
     position: relative;
     /*height: auto !important*/
+    height: 200px !important
 }
 .main-img-100 {
     width: 100%;
