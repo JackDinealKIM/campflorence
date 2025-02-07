@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "copy": "copyfiles -a \"css/**/*\" \"fonts/**/*\" \"image/**/*\" \"img/**/*\" \"js/**/*\" \"public/**/*\" \"src/**/*\" \"video/**/*\" \"CNAME\" \"*.html\" \"robots.txt\" \"sitemap.xml\" dist"
+    "copy": "copyfiles -a \"*\" \"**/*\" dist"
   },
   "devDependencies": {
     "copyfiles": "^2.4.1",
