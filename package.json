@@ -6,9 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "copy": "copyfiles -a \"css/**/*\" \"fonts/**/*\" \"image/**/*\" \"img/**/*\" \"js/**/*\" \"public/**/*\" \"src/**/*\" \"video/**/*\" \"CNAME\" \"*.html\" \"robots.txt\" \"sitemap.xml\" dist"
   },
   "devDependencies": {
+    "copyfiles": "^2.4.1",
     "vite": "^6.0.5"
   }
 }
