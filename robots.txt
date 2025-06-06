@@ -1,3 +1,44 @@
 User-agent: *
 Allow: /
+Allow: /css/
+Allow: /js/
+Allow: /image/
+Allow: /video/
+Allow: /fonts/
+
+# 주요 페이지들
+Allow: /index.html
+Allow: /room.html
+Allow: /activity.html
+Allow: /faq.html
+Allow: /room-details-family.html
+Allow: /room-details-couple.html
+
+# 갤러리 페이지들
+Allow: /gallery-*.html
+
+# 검색엔진이 크롤링하지 않을 디렉토리
+Disallow: /dist/
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /.idea/
+Disallow: /*.DS_Store
+
+# 크롤링 속도 조절 (1초에 1번 요청)
+Crawl-delay: 1
+
+# 사이트맵 위치
 Sitemap: https://www.campflorence.com/sitemap.xml
+
+# 주요 검색엔진별 설정
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: NaverBot
+Allow: /
+
+User-agent: DaumBot
+Allow: /
